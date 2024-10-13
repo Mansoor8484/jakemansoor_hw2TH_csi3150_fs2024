@@ -1,0 +1,88 @@
+*{
+    /* supress browser defaults and select alt box model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* set variables for colors */
+    --bg-primary: #1a1818;
+    --bg-secondary: #7B887D;
+    --font-color-primary: #f4f4f9;
+    --font-color-secondary: #3cdd78;
+    --backup-color: #28E6FF;
+    --text-color-3: #8d8d58;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    background-color: var(--bg-primary);
+}
+
+.header h1 {
+    font-size: 50px;
+    color: var(--font-color-primary);
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 80px;
+    padding: 0px 250px; 
+    background-color: var(--bg-primary); 
+}
+
+.header nav ul {
+    display: flex;
+    margin-left: 10px;
+}
+
+.header nav ul li {
+    list-style: none;
+    padding: 25px;
+
+}
+
+.header nav ul li a {
+    color: var(--font-color-secondary);
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: var(--font-color-primary);
+}
+
+hr {
+    border: none;
+    height: 3px; 
+    background-color: rgb(141, 141, 88);
+    margin: 0px 300px; 
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.main {
+    padding: 30px 250px;
+    color: var(--font-color-primary);
+}
+
+.main h3{
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.main p{
+    font-size: 20px;
+}
+
+.main p a{
+    color: var(--font-color-secondary);
+}
+
+.main iframe{
+    margin-top: 30px;
+    width: 800px;
+    margin-bottom: 30px;
+}
+

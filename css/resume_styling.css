@@ -1,0 +1,277 @@
+*{
+    /* supress browser defaults and select alt box model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* set variables for colors */
+    --bg-primary: #1a1818;
+    --bg-secondary: #7B887D;
+    --font-color-primary: #f4f4f9;
+    --font-color-secondary: #3cdd78;
+    --backup-color: #28E6FF;
+    --text-color-3: #8d8d58;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    background-color: var(--bg-primary);
+}
+
+
+.navbar h1{
+    font-size: 50px;
+    padding: 0px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 200px;
+    color: var(--font-color-primary);
+}
+
+.navbar nav ul {
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 25px;
+
+}
+
+.navbar ul li a{
+    color: var(--font-color-secondary);
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 5s ease;
+}
+
+.navbar ul li a:hover{
+    color: var(--font-color-primary);
+}
+
+hr {
+    border: none;
+    height: 3px; 
+    background-color: rgb(141, 141, 88);
+    margin: 10px 0; 
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.main {
+    color: var(--font-color-primary);
+}
+
+.main h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 250px;
+}
+/*  Table css
+.main table {
+    width: 40%;
+    margin: 5px 250px; 
+}
+
+.main table tr {
+    display: flex;
+    width: 100%;
+}
+
+.main table th, .main table td {
+    flex: 1; 
+    border: 1px solid var(--font-color-primary); 
+    padding: 8px; 
+    text-align: left; 
+}
+
+.main table th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+*/
+
+.resumenavguide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumenavguide nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-secondary);
+}
+
+.resumenavguide nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+
+.resumenavguide nav ul li{
+    display: flex;
+    justify-content: center;
+}
+.resumenavguide nav ul li a {
+    color: var(--font-color-primary); /* Custom link color */
+    text-decoration: none;
+    font-size: 18px; /* Font size */
+    padding: 10px; /* Padding inside the link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.resumenavguide nav ul li a:hover {
+    background-color: var(--font-color-secondary);
+    color: var(--bg-primary);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about h2{
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 22px; /* Font size for paragraph */
+    padding: 35px 300px; /* Padding inside the paragraph */
+    text-align: center; /* Center-align text */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+.about p span{
+    color: var(--font-color-secondary);
+}
+
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience h2{
+    font-size: 32px;
+}
+
+.experience h3{
+    font-size: 22px;
+}
+
+.experience div h4{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 0px 250px;
+    margin-bottom: 30px;
+}
+
+
+.experience p{
+    font-size: 22px; 
+    padding: 0px 300px;
+    text-align: left;
+    line-height: 1.6; 
+}
+
+.projects h2{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects h2 {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects table {
+    border-collapse: collapse; /* Remove space between cells */
+    width: auto; /* Adjust width to content */
+    border: 1px solid #ddd; /* Border around the table */
+    margin: 0 auto; /* Center the table horizontally */
+    margin-top: 20px;
+}
+
+.projects table th, .projects table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; 
+}
+
+.projects table th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h3{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills p{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 400px;
+}
+
+.contactinfo h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color-primary);
+    margin-bottom: 20px;
+}
+
+.contactinfo ul{
+    list-style-type: none;
+    color: var(--font-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+    margin-bottom: 20px;
+}
+
+.contactinfo ul li i{
+    color: var(--font-color-secondary);
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color-primary);
+    margin-bottom: 10px;
+}
+
+.bx-bx-copyright{
+    color: var(--font-color-secondary);
+}

@@ -1,0 +1,137 @@
+*{
+    /* supress browser defaults and select alt box model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* set variables for colors */
+    --bg-primary: #1a1818;
+    --bg-secondary: #7B887D;
+    --font-color-primary: #f4f4f9;
+    --font-color-secondary: #3cdd78;
+    --backup-color: #28E6FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+
+  background-color: var(--bg-primary);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 250px;
+    color: var(--font-color-primary);
+}
+
+.navbar nav ul {
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 25px;
+
+}
+
+.navbar ul li a{
+    color: var(--font-color-secondary);
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 5s ease;
+}
+
+.navbar ul li a:hover{
+    color: var(--font-color-primary);
+}
+
+
+.hire-btn{
+    background-color: var(--bg-);
+    color: var(--font-color-primary);
+    padding: 5px 15px;
+    border: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background .8s ease;
+}
+
+.hire-btn:hover {
+  background: var(--font-color-secondary);
+  color: var(--bg-primary);
+}
+
+hr {
+    border: none;
+    height: 3px; 
+    background-color: rgb(141, 141, 88);
+    margin: 30px 0; 
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.main{
+    height: 300x; /* shazam */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color-primary);
+
+}
+
+.main img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.intro{
+    margin-top: 30px;
+    padding: 0 200px;
+    font-size: 40px;
+}
+
+.intro p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro p span{
+    color: var(--font-color-secondary);
+    padding: 10px;
+    
+}
+
+
+footer{
+    color: var(--font-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+footer .contactinfo h2{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+footer .contactinfo ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 99px;
+    
+}
+
+footer .contactinfo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
