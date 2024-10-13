@@ -275,3 +275,7 @@ footer p{
 .bx-bx-copyright{
     color: var(--font-color-secondary);
 }
+
+footer p i{
+    color: var(--font-color-secondary);
+}

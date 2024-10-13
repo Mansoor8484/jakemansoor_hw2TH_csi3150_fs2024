@@ -117,6 +117,8 @@ footer{
 }
 
 footer .contactinfo h2{
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     margin-bottom: 10px;
 }
@@ -129,9 +131,16 @@ footer .contactinfo ul{
     
 }
 
+footer .contactinfo ul i{
+    color: var(--font-color-secondary);
+}
 footer .contactinfo p{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+footer .contactinfo p i{
+    color: var(--font-color-secondary);
 }
